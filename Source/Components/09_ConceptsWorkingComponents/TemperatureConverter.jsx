@@ -24,10 +24,10 @@ function TemperatureConverter() {
                 <input value={fahrenheit} onChange={handleFahrenheitChange} />
             </div>
             <br />
-            <divl>
+            <div>
                 Цельсий в Фаренгейт:
                 <input value={celsius} onChange={handleCelsiusChange} />
-            </divl>
+            </div>
         </div>
     );
 }

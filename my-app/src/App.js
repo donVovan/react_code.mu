@@ -1,14 +1,13 @@
 //⊗jsrtPmCpChCPS
 import React, {useState} from 'react';
 import './App.css';
-import Calculator from "./Calculator";
-import Converter from "./Converter";
-import TemperatureConverter from "./TemperatureConverter";
+import Calculator from './Calculator';
+
 
 function App() {
 
     return <div>
-        <TemperatureConverter />
+        <Calculator />
     </div>;
 }
 
