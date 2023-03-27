@@ -1,11 +1,11 @@
 //⊗jsrtPmCpRCC
 import React, { useState } from "react";
 import "./App.css";
-import Checklist from "./Checklist";
+import Notepad from "./Notepad";
 
 function App() {
     return (
-        <Checklist />
+        <Notepad />
     );
 }
 
